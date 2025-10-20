@@ -1,0 +1,25 @@
+# ---------------------------------------------------------------------------- #
+rule test:
+    '''
+    This is a test rule
+    '''
+    input:
+        test = config['test01']
+    conda:
+        config['env_bioinfo']
+    output:
+        test = f"{config["out_location"]}{config["test_out"]}"
+    log:
+        'logs/test/test.log'
+    benchmark:
+        'benchmarks/test/test.txt'
+    params:
+        annotations = config['test02']
+    shell:
+        '''
+        echo "run the test" > {log}
+        cat {input.test} > {output.test}
+        cat {params.annotations} | awk 'NR<=10' >> {output.test}
+        conda env list >> {output.test}
+        echo "test done" >> {log}
+        '''

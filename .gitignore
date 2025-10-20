@@ -1,0 +1,19 @@
+# files
+*.log
+*.mro
+cytassist_image.tiff
+
+# folders
+.snakemake/
+benchmarks/
+logs/
+results/
+pypette/
+logs/
+results_old/
+spaceranger_out/
+test_Abisnta/
+test_cytassist/
+Visium_HD_Human_Lung_Cancer_fastqs/
+test_spacerangerHD/sample_raw/Visium_HD_Human_Lung_Cancer_tissue_image.tif
+test_spacerangerHD/sample_raw/Visium_HD_Human_Lung_Cancer_cytaimage.tif
