@@ -2,6 +2,8 @@
 *.log
 *.mro
 cytassist_image.tiff
+rclone_personal_spinal*
+rcloneHU_Spinal*
 
 # folders
 .snakemake/
