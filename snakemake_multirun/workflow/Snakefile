@@ -156,7 +156,7 @@ rule spaceranger_singlerun_default:
                 sample_name=[k[0] for k in SAMPLES_single.keys()],
                 sample_run=[k[1] for k in SAMPLES_single.keys()]),
         
-        expand(rules.runMultiqc1.output.html)
+        rules.runMultiqc1.output.html
 
         # comment above an uncomment below in case you want to run the multiqc on the single run
         # expand(rules.runMultiqc1.output.html,
@@ -172,7 +172,7 @@ rule spaceranger_multirun_default:
         expand(rules.moveSpacerangerSummaryMultiRun.output.summary,
                 sample_name=SAMPLES_merge.keys()),
 
-        expand(rules.runMultiqc1MultiRun.output.html)
+        rules.runMultiqc1MultiRun.output.html
 
 
 rule test_all:

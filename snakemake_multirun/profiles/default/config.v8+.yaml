@@ -13,6 +13,7 @@ conda-base-path: /home/pedrini.edoardo/miniconda3
 # TBD
 #
 default-resources:
+    slurm_account: "pedrini.edoardo"
     mem_mb: 5000
     cores: 1
 

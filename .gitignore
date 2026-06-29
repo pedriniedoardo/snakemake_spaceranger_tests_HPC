@@ -19,5 +19,6 @@ test_cytassist/
 Visium_HD_Human_Lung_Cancer_fastqs/
 test_spacerangerHD/sample_raw/Visium_HD_Human_Lung_Cancer_tissue_image.tif
 test_spacerangerHD/sample_raw/Visium_HD_Human_Lung_Cancer_cytaimage.tif
+data/
 
 # test
