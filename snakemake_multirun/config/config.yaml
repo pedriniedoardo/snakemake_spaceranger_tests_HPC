@@ -44,8 +44,9 @@ ref:
   database: gencode
   animal: human
   # Path to the reference genome for Cell Ranger (e.g., GRCh38 or mm10)
-  # reference: "/idle/ric.cosr/ric.cosr/pedrini.edoardo/reference/refdata-gex-GRCh38-2020-A"
-  reference: "/idle/ric.cosr/ric.cosr/pedrini.edoardo/reference/refdata-gex-GRCh38-2024-A"
+  # reference: "/beegfs/scratch/ric.absinta/ric.absinta/reference/refdata-gex-GRCh38-2020-A"
+  # reference: "/beegfs/scratch/ric.absinta/ric.absinta/reference/refdata-gex-GRCh38-2024-A"
+  reference: "/beegfs/scratch/ric.absinta/ric.absinta/reference/GRCh38-2024-A_plus_EBV/ref/GRCh38-2024-A_plus_EBV"
   # reference: "/beegfs/datasets/buffer/ric.cosr/cellranger_genomes/refdata-gex-mm10-2020-A"
 
   # test tiny
