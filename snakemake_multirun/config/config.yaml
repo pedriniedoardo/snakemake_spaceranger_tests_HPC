@@ -15,17 +15,18 @@ test_out: "test/test_out.txt"
 # samples_csv: "config/samplesTestFast.csv"
 # samples_csv: "config/samplesTestFastMulti.csv"
 # samples_csv: "config/samplesAbsintaSpinal.csv"
-# samples_csv: "config/samplesAbsintaSpinal_multi.csv"
+samples_csv: "config/samplesAbsintaSpinal_multi.csv"
 # samples_csv: "config/samplesAbsintaBrain_multi.csv"
-samples_csv: "config/samplesAbsintaBrain_multi.csv"
+# samples_csv: "config/samplesAbsintaBrain_multi.csv"
+# samples_csv: "config/samplesheet_GSE279183.csv"
 
 # test singlerun
 # samples_csv: "config/samplesTestFast.csv"
 # samples_csv: "config/samplesTestFastRuns.csv"
 
-env_spaceranger: "env_spaceranger401"
+env_spaceranger: "env_spaceranger410"
 # env_bioinfo: "/home/pedrini.edoardo/miniconda3/envs/env_bioinfo_minimal"
-env_bioinfo: "bioinfo"
+env_bioinfo: "../envs/env_bioinfo_minimal.yaml"
 
 # were to save the output of the processing
 out_location: "results/"
@@ -46,7 +47,8 @@ ref:
   # Path to the reference genome for Cell Ranger (e.g., GRCh38 or mm10)
   # reference: "/beegfs/scratch/ric.absinta/ric.absinta/reference/refdata-gex-GRCh38-2020-A"
   # reference: "/beegfs/scratch/ric.absinta/ric.absinta/reference/refdata-gex-GRCh38-2024-A"
-  reference: "/beegfs/scratch/ric.absinta/ric.absinta/reference/GRCh38-2024-A_plus_EBV/ref/GRCh38-2024-A_plus_EBV"
+  reference: "/beegfs/scratch/ric.absinta/ric.absinta/reference/refdata-gex-GRCh38-2020-A"
+  # reference: "/beegfs/scratch/ric.absinta/ric.absinta/reference/GRCh38-2024-A_plus_EBV/ref/GRCh38-2024-A_plus_EBV"
   # reference: "/beegfs/datasets/buffer/ric.cosr/cellranger_genomes/refdata-gex-mm10-2020-A"
 
   # test tiny
